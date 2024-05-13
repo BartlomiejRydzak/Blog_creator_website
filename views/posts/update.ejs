@@ -1,0 +1,15 @@
+<%- include("../partials/head.ejs") %>
+
+<h1>Make changes</h1>
+
+<form action="/update/<%= usertitle%>" method="POST" class="create">
+    <input id="title" type="text" name="usertitle" class="title" required>
+    <textarea id="text" type="text" name="usertext" class="text" required></textarea>
+    <input type="submit" value="update">
+</form>
+
+<script>
+    document.getElementById("title").value = "<%= usertitle %>";
+    document.getElementById("text").value = "<%= usertext %>";
+</script>
+<%- include("../partials/bottom.ejs") %>

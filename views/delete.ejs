@@ -1,0 +1,13 @@
+<%- include("partials/head.ejs") %>
+
+<h1>Which post do you want to delete?</h1>
+
+<ul>
+    <% if(locals.tab) {%>
+        <% tab.forEach(post => { %>
+            <li><a href="/posts/delete/<%= post.usertitle %>"><%= post.usertitle %></a></li>
+        <% }); %>
+    <%} %>
+</ul>
+
+<%- include("partials/bottom.ejs") %>

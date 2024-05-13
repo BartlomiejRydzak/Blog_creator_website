@@ -1,0 +1,17 @@
+<%- include("partials/head.ejs") %>
+
+<h1>Pick one and ejnoy!</h1>
+
+<ul>
+    <li><a href="/posts/HowToDoIt">HowToDoIt</a></li>
+<% if(locals.tab) {%>
+
+        <% tab.forEach(post => { %>
+            <li><a href="/posts/<%= post.usertitle %>"><%= post.usertitle %></a></li>
+        <% }); %>
+
+<%} %>
+
+</ul>
+
+<%- include("partials/bottom.ejs") %>

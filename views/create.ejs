@@ -1,0 +1,11 @@
+<%- include("partials/head.ejs") %>
+
+<h1>Welcome to the post creator!</h1>
+
+<form action="/create" method="POST" class="create">
+    <input type="text" name="usertitle" placeholder="Type title" class="title" required>
+    <textarea type="text" name="usertext" placeholder="Start writing your post" class="text" required></textarea>
+    <input type="submit" value="create" class="submit">
+</form>
+
+<%- include("partials/bottom.ejs") %>

@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+h1{
+    margin: 100px;
+    font-size: 50px;
+
+}
+
+li{
+    list-style-type: none;
+    margin: 20px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    margin-left: 20px;
+}
+
+.navbar{
+    text-align: left;
+}
+
+.navbar li{
+    margin: 5px;
+}
+
+.dropdown-menu{
+    font-size: 25px;
+}
+
+.dropdown-menu a:active{
+    background-color: white;
+    color: black;
+}
+
+a:hover{
+    color: grey;
+    transition: color 0.5s;
+}
+
+.create{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.create input{
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.create .title{
+    width: 80%;
+}
+
+.create .text{
+    width: 95%;
+    height: 60vh;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.create .submit{
+    width: 120px;
+}
+
+.post{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.HowToDoIt *{
+    text-align: left;
+    margin-left: 20px;
+}
