@@ -11,7 +11,7 @@ To run the website locally on your computer, follow these steps:
 2. **Clone the Repository**: Clone this repository to your local machine using Git:
 
     ```
-    git clone https://github.com/your-username/blog-creator-website.git
+    git clone https://github.com/BartlomiejRydzak/Blog_creator_website.git
     ```
 
 3. **Install Dependencies**: Navigate to the project directory and install the necessary dependencies using npm:
